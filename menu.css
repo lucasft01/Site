@@ -1,0 +1,33 @@
+#top{
+    position: absolute;
+    width: 576px;
+    top:0;
+    background-color: aqua;
+    border: solid black 1px;
+    text-align: center;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu>ul>li{
+    float: left;
+    border: 0;
+    padding: 10px;
+    border-right: solid black 1px;
+}
+#item2{
+    display: none;
+}
+#menu>ul>li:hover{
+    background-color: aliceblue;
+}
+#menu>ul>li:hover>ul{
+    background-color: aqua;
+    display: block;
+    padding: 0;
+    position: absolute;
+    bottom: -54px;
+    left:104px;
+}
